@@ -15,7 +15,7 @@ import axios from "axios";
 import RegisterPage from './pages/RegisterPage';
 
 // axios.defaults.baseURL='http://localhost:4000';
-axios.defaults.baseURL='https://bookitupp.netlify.app/';
+axios.defaults.baseURL='https://bookitupp.netlify.app';
 axios.defaults.withCredentials = true;
 
 function App() {
